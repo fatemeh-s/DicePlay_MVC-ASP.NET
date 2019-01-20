@@ -1,0 +1,217 @@
+D:\term7\internet\Project\DiceGame\DiceGame\bin\ApplicationInsights.config
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\csc.exe
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\csc.exe.config
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\csc.rsp
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\csi.exe
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\csi.rsp
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\System.AppContext.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\System.Collections.Immutable.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\System.IO.FileSystem.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\System.Reflection.Metadata.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\vbc.exe
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\vbc.exe.config
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\vbc.rsp
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\VBCSCompiler.exe
+D:\term7\internet\Project\DiceGame\DiceGame\bin\roslyn\VBCSCompiler.exe.config
+D:\term7\internet\Project\DiceGame\DiceGame\bin\DiceGame.dll.config
+D:\term7\internet\Project\DiceGame\DiceGame\bin\DiceGame.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\DiceGame.pdb
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Antlr3.Runtime.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\EntityFramework.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\EntityFramework.SqlServer.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Microsoft.AI.Agent.Intercept.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Microsoft.AI.DependencyCollector.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Microsoft.AI.Web.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Microsoft.AI.WindowsServer.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Microsoft.ApplicationInsights.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Microsoft.Web.Infrastructure.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Newtonsoft.Json.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\System.Web.Helpers.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\System.Web.Mvc.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\System.Web.Optimization.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\System.Web.Razor.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\System.Web.WebPages.Deployment.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\System.Web.WebPages.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\System.Web.WebPages.Razor.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\WebGrease.dll
+D:\term7\internet\Project\DiceGame\DiceGame\bin\EntityFramework.xml
+D:\term7\internet\Project\DiceGame\DiceGame\bin\EntityFramework.SqlServer.xml
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\term7\internet\Project\DiceGame\DiceGame\bin\System.Web.Helpers.xml
+D:\term7\internet\Project\DiceGame\DiceGame\bin\System.Web.Mvc.xml
+D:\term7\internet\Project\DiceGame\DiceGame\bin\System.Web.Optimization.xml
+D:\term7\internet\Project\DiceGame\DiceGame\bin\System.Web.Razor.xml
+D:\term7\internet\Project\DiceGame\DiceGame\bin\System.Web.WebPages.xml
+D:\term7\internet\Project\DiceGame\DiceGame\bin\System.Web.WebPages.Deployment.xml
+D:\term7\internet\Project\DiceGame\DiceGame\bin\System.Web.WebPages.Razor.xml
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Antlr3.Runtime.pdb
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Newtonsoft.Json.xml
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Microsoft.ApplicationInsights.xml
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Microsoft.AI.DependencyCollector.xml
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Microsoft.AI.WindowsServer.xml
+D:\term7\internet\Project\DiceGame\DiceGame\bin\Microsoft.AI.Web.xml
+D:\term7\internet\Project\DiceGame\DiceGame\obj\Debug\DiceGame.csprojResolveAssemblyReference.cache
+D:\term7\internet\Project\DiceGame\DiceGame\obj\Debug\DiceGame.dll
+D:\term7\internet\Project\DiceGame\DiceGame\obj\Debug\DiceGame.pdb
+D:\term7\internet\Project\DiceGame\DiceGame\obj\Debug\DiceGame.Migrations.InitialModel.resources
+D:\term7\internet\Project\DiceGame\DiceGame\obj\Debug\DiceGame.csproj.GenerateResource.Cache
+D:\university\internet\DiceGame\DiceGame\bin\ApplicationInsights.config
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\csc.exe
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\csc.exe.config
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\csc.rsp
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\csi.exe
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\csi.rsp
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\System.AppContext.dll
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\System.Collections.Immutable.dll
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\System.IO.FileSystem.dll
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\System.Reflection.Metadata.dll
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\vbc.exe
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\vbc.exe.config
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\vbc.rsp
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\VBCSCompiler.exe
+D:\university\internet\DiceGame\DiceGame\bin\roslyn\VBCSCompiler.exe.config
+D:\university\internet\DiceGame\DiceGame\bin\DiceGame.dll.config
+D:\university\internet\DiceGame\DiceGame\bin\DiceGame.dll
+D:\university\internet\DiceGame\DiceGame\bin\DiceGame.pdb
+D:\university\internet\DiceGame\DiceGame\bin\Antlr3.Runtime.dll
+D:\university\internet\DiceGame\DiceGame\bin\EntityFramework.dll
+D:\university\internet\DiceGame\DiceGame\bin\EntityFramework.SqlServer.dll
+D:\university\internet\DiceGame\DiceGame\bin\Microsoft.AI.Agent.Intercept.dll
+D:\university\internet\DiceGame\DiceGame\bin\Microsoft.AI.DependencyCollector.dll
+D:\university\internet\DiceGame\DiceGame\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\university\internet\DiceGame\DiceGame\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\university\internet\DiceGame\DiceGame\bin\Microsoft.AI.Web.dll
+D:\university\internet\DiceGame\DiceGame\bin\Microsoft.AI.WindowsServer.dll
+D:\university\internet\DiceGame\DiceGame\bin\Microsoft.ApplicationInsights.dll
+D:\university\internet\DiceGame\DiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\university\internet\DiceGame\DiceGame\bin\Microsoft.Web.Infrastructure.dll
+D:\university\internet\DiceGame\DiceGame\bin\Newtonsoft.Json.dll
+D:\university\internet\DiceGame\DiceGame\bin\System.Web.Helpers.dll
+D:\university\internet\DiceGame\DiceGame\bin\System.Web.Mvc.dll
+D:\university\internet\DiceGame\DiceGame\bin\System.Web.Optimization.dll
+D:\university\internet\DiceGame\DiceGame\bin\System.Web.Razor.dll
+D:\university\internet\DiceGame\DiceGame\bin\System.Web.WebPages.Deployment.dll
+D:\university\internet\DiceGame\DiceGame\bin\System.Web.WebPages.dll
+D:\university\internet\DiceGame\DiceGame\bin\System.Web.WebPages.Razor.dll
+D:\university\internet\DiceGame\DiceGame\bin\WebGrease.dll
+D:\university\internet\DiceGame\DiceGame\bin\EntityFramework.xml
+D:\university\internet\DiceGame\DiceGame\bin\EntityFramework.SqlServer.xml
+D:\university\internet\DiceGame\DiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\university\internet\DiceGame\DiceGame\bin\System.Web.Helpers.xml
+D:\university\internet\DiceGame\DiceGame\bin\System.Web.Mvc.xml
+D:\university\internet\DiceGame\DiceGame\bin\System.Web.Optimization.xml
+D:\university\internet\DiceGame\DiceGame\bin\System.Web.Razor.xml
+D:\university\internet\DiceGame\DiceGame\bin\System.Web.WebPages.xml
+D:\university\internet\DiceGame\DiceGame\bin\System.Web.WebPages.Deployment.xml
+D:\university\internet\DiceGame\DiceGame\bin\System.Web.WebPages.Razor.xml
+D:\university\internet\DiceGame\DiceGame\bin\Antlr3.Runtime.pdb
+D:\university\internet\DiceGame\DiceGame\bin\Newtonsoft.Json.xml
+D:\university\internet\DiceGame\DiceGame\bin\Microsoft.ApplicationInsights.xml
+D:\university\internet\DiceGame\DiceGame\bin\Microsoft.AI.DependencyCollector.xml
+D:\university\internet\DiceGame\DiceGame\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\university\internet\DiceGame\DiceGame\bin\Microsoft.AI.WindowsServer.xml
+D:\university\internet\DiceGame\DiceGame\bin\Microsoft.AI.Web.xml
+D:\university\internet\DiceGame\DiceGame\obj\Debug\DiceGame.csprojAssemblyReference.cache
+D:\university\internet\DiceGame\DiceGame\obj\Debug\DiceGame.csproj.CoreCompileInputs.cache
+D:\university\internet\DiceGame\DiceGame\obj\Debug\DiceGame.csproj.CopyComplete
+D:\university\internet\DiceGame\DiceGame\obj\Debug\DiceGame.dll
+D:\university\internet\DiceGame\DiceGame\obj\Debug\DiceGame.pdb
+D:\term7\internet\Final\DiceGame (2)\DiceGame\obj\Debug\DiceGame.csprojResolveAssemblyReference.cache
+D:\term7\internet\Final\DiceGame (2)\DiceGame\obj\Debug\DiceGame.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\obj\Debug\DiceGame.pdb
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\ApplicationInsights.config
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\csc.exe
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\csc.exe.config
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\csc.rsp
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\csi.exe
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\csi.rsp
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\System.AppContext.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\System.Collections.Immutable.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\System.IO.FileSystem.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\System.Reflection.Metadata.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\vbc.exe
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\vbc.exe.config
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\vbc.rsp
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\VBCSCompiler.exe
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\roslyn\VBCSCompiler.exe.config
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\DiceGame.dll.config
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\DiceGame.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\DiceGame.pdb
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Antlr3.Runtime.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\EntityFramework.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\EntityFramework.SqlServer.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Microsoft.AI.Agent.Intercept.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Microsoft.AI.DependencyCollector.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Microsoft.AI.Web.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Microsoft.AI.WindowsServer.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Microsoft.ApplicationInsights.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Microsoft.Web.Infrastructure.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Newtonsoft.Json.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\System.Web.Helpers.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\System.Web.Mvc.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\System.Web.Optimization.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\System.Web.Razor.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\System.Web.WebPages.Deployment.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\System.Web.WebPages.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\System.Web.WebPages.Razor.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\WebGrease.dll
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\EntityFramework.xml
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\EntityFramework.SqlServer.xml
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\System.Web.Helpers.xml
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\System.Web.Mvc.xml
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\System.Web.Optimization.xml
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\System.Web.Razor.xml
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\System.Web.WebPages.xml
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\System.Web.WebPages.Deployment.xml
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\System.Web.WebPages.Razor.xml
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Antlr3.Runtime.pdb
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Newtonsoft.Json.xml
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Microsoft.ApplicationInsights.xml
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Microsoft.AI.DependencyCollector.xml
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Microsoft.AI.WindowsServer.xml
+D:\term7\internet\Final\DiceGame (2)\DiceGame\bin\Microsoft.AI.Web.xml

@@ -18,20 +18,20 @@ namespace DiceGame.Models
         public FinishedGame()
         {
             Current1 = 0;
-            Current0 = 0;
-            total0 = 0;
-            total1 = 0;
-            Turn = 0;
+            Current2 = 0;
+            Score1 = 0;
+            Score2 = 0;
+            Turn = 1;
 
     }
 
         public int Id { get; set; }
         public string Player1User { get; set; }
         public string Player2User { get; set; }
-        public int Current0 { get; set; }
         public int Current1 { get; set; }
-        public int total0 { get; set; }
-        public int total1 { get; set; }
+        public int Current2 { get; set; }
+        public int Score1 { get; set; }
+        public int Score2 { get; set; }
         public int Turn { get; set; }
         public int DesignedGameId { get; set; }
         public int finished { get; set; }//if finishe =1 else =0

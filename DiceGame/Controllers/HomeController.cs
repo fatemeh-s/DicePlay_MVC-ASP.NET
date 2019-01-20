@@ -14,7 +14,7 @@ namespace DiceGame.Controllers
         public ActionResult Index()
         {
             ViewBag.bestDesigner = db.DesignedGames.OrderByDescending(x => x.TotalScore).First();
-            ViewBag.NewBestDesigner = db.DesignedGames.OrderByDescending(x => x.TotalScore).OrderByDescending(y => y.DateDesign).First();
+            ViewBag.NewBestDesigner = db.DesignedGames.OrderByDescending(x => x.TotalScore).OrderByDescending(y => y.DateBuild).First();
             ViewBag.moreOnlineGame = from t in db.OnlineGames
                                      group t by t.DesignedGameId into g
                                      select new
@@ -37,7 +37,7 @@ namespace DiceGame.Controllers
         public ActionResult AdminIndex()
         {
             ViewBag.bestDesigner = db.DesignedGames.OrderByDescending(x => x.TotalScore).First();
-            ViewBag.NewBestDesigner = db.DesignedGames.OrderByDescending(x => x.TotalScore).OrderByDescending(y => y.DateDesign).First();
+            ViewBag.NewBestDesigner = db.DesignedGames.OrderByDescending(x => x.TotalScore).OrderByDescending(y => y.DateBuild).First();
             ViewBag.moreOnlineGame = from t in db.OnlineGames
                                      group t by t.DesignedGameId into g
                                      select new
@@ -82,7 +82,7 @@ namespace DiceGame.Controllers
         public ActionResult GuestIndex()
         {
             ViewBag.bestDesigner = db.DesignedGames.OrderByDescending(x => x.TotalScore).First();
-            ViewBag.NewBestDesigner = db.DesignedGames.OrderByDescending(x => x.TotalScore).OrderByDescending(y => y.DateDesign).First();
+            ViewBag.NewBestDesigner = db.DesignedGames.OrderByDescending(x => x.TotalScore).OrderByDescending(y => y.DateBuild).First();
             ViewBag.moreOnlineGame = from t in db.OnlineGames
                                      group t by t.DesignedGameId into g
                                      select new
