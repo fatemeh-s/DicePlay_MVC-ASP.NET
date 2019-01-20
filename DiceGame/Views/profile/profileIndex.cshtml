@@ -1,0 +1,67 @@
+﻿@model DiceGame.Models.User
+@{
+    ViewBag.Title = "profileIndex";
+}
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 col-md-4 user-details">
+            <div class="user-image">
+                <img src="http://www.gravatar.com/avatar/2ab7b2009d27ec37bffee791819a090c?s=100&d=mm&r=g" alt="Karan Singh Sisodia" title="Karan Singh Sisodia" class="img-circle">
+            </div>
+            <div class="user-info-block">
+                <div class="user-heading">
+                    <span>name :</span> @Html.DisplayFor(m => Model.FirstName)
+                    <br />
+                    <span>family :</span> @Html.DisplayFor(m => Model.LastName)
+                    <br />
+                    <span>birthday :</span> @Html.DisplayFor(m => Model.BirthDay)
+                    <br />
+                    <span>Gender :</span> @Html.DisplayFor(m => Model.Gender )
+                    <br />
+                    <span>username :</span> @Html.DisplayFor(m => Model.UserName )
+                    <br />
+                    <span>password :</span> @Html.DisplayFor(m => Model.Password ) 
+                    <br />
+                    @*<span class="help-block">Chandigarh, IN</span>*@
+                </div>
+                <ul class="navigation row">
+                    <li class="active ">
+                        <a data-toggle="tab" href="#information">
+                            <span class="glyphicon glyphicon-pencil" onclick="location.href='@Url.Action("EditProfile", "profile")'"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#settings">
+                            <span class="glyphicon glyphicon-play" onclick="location.href='@Url.Action("EditProfile", "profile")'"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#email">
+                            <span class="glyphicon glyphicon-plus-sign" onclick="location.href='@Url.Action("EditProfile", "profile" )'"></span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="user-body">
+                    <div class="tab-content">
+                        <div id="information" class="tab-pane active">
+                            <h4>Account Information</h4>
+                        </div>
+                        <div id="settings" class="tab-pane">
+                            <h4>Settings</h4>
+                        </div>
+                        <div id="email" class="tab-pane">
+                            <h4>Send Message</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

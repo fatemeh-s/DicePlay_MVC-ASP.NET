@@ -153,12 +153,14 @@
     <Compile Include="Controllers\GameController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\profileController.cs" />
     <Compile Include="Controllers\ReviewController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Admin.cs" />
+    <Compile Include="Models\request.cs" />
     <Compile Include="Models\UserComment.cs" />
     <Compile Include="Models\GameComment.cs" />
     <Compile Include="Models\DesignedGame.cs" />
@@ -219,17 +221,14 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Game\GameIndex.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\AdminIndex.cshtml" />
     <Content Include="Views\Home\AllUsers.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\DesignGame.cshtml" />
-    <Content Include="Views\Home\EditProfile.cshtml" />
+    <Content Include="Views\profile\EditProfile.cshtml" />
     <Content Include="Views\Home\GuestIndex.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\slider.cshtml" />
     <Content Include="Views\Login\login.cshtml" />
-    <Content Include="Views\Login\logout.cshtml" />
     <Content Include="Views\Login\signUp.cshtml" />
     <Content Include="Views\Review\GameReviewAdminIndex.cshtml" />
     <Content Include="Views\Review\UserReviewAdminIndex.cshtml" />
@@ -237,6 +236,10 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\_MyLayout.cshtml" />
     <Content Include="Views\Shared\_MyLayout2.cshtml" />
+    <Content Include="Views\profile\profileIndex.cshtml" />
+    <Content Include="Views\profile\ProfileDesignedGame.cshtml" />
+    <Content Include="Views\profile\ProfileGames.cshtml" />
+    <Content Include="Views\Game\AllGames.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

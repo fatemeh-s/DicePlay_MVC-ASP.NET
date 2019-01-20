@@ -21,7 +21,7 @@ namespace DiceGame.Models
             Current2 = 0;
             Score1 = 0;
             Score2 = 0;
-            Turn = 1;
+            Turn = 0;
 
     }
 
@@ -34,8 +34,8 @@ namespace DiceGame.Models
         public int Score2 { get; set; }
         public int Turn { get; set; }
         public int DesignedGameId { get; set; }
-        public int finished { get; set; }//if finishe =1 else =0
-       
+        //public int finished { get; set; }//if finishe =1 else =0
+        public DesignedGame game { get; set; }
 
     }
 }

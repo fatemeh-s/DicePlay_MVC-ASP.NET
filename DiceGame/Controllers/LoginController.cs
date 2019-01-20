@@ -10,7 +10,7 @@ namespace DiceGame.Controllers
     public class LoginController : Controller
     {
 
-        private DiceModel _context = new DiceModel();
+        private DiceModel db = new DiceModel();
 
         public LoginController()
         {
@@ -23,24 +23,24 @@ namespace DiceGame.Controllers
         [HttpPost]
         public ActionResult login(string username , string password)
         {
-            User usr = _context.Users.Where(u => u.UserName == username && u.Password == password).FirstOrDefault();
-            if (usr != null)
+            User user = db.Users.Where(u => u.UserName == username && u.Password == password).FirstOrDefault();
+            if (user != null)
             {
-                _context.Users.Remove(usr);
-                _context.SaveChanges();
-                usr.Online = 1;
-                _context.Users.Add(usr);
-                _context.SaveChanges();
-                Session["username"] = _context.Users.Where(u => u.UserName == usr.UserName).First().UserName;
-                Session["designedGame"] = _context.DesignedGames.Where(d => d.DesignerUser == usr.UserName).ToList();
-                Session["finishedGame1"] = _context.FinishedGames.Where(d => d.Player1User == usr.UserName ).ToList();
-                Session["finishedGame2"] = _context.FinishedGames.Where(d => d.Player2User == usr.UserName).ToList();
-                Session["usr"] = usr;
-                Session["friends"] = usr.Friends;
+
+
+                db.Users.Where(u => u.UserName == username && u.Password == password).First().Online = 1;
+                db.SaveChanges();
+              
+                Session["username"] = db.Users.Where(u => u.UserName == user.UserName).First().UserName;
+                Session["designedGame"] = db.DesignedGames.Where(d => d.DesignerUser == user.UserName).ToList();
+                Session["finishedGame1"] = db.FinishedGames.Where(d => d.Player1User == user.UserName ).ToList();
+                Session["finishedGame2"] = db.FinishedGames.Where(d => d.Player2User == user.UserName).ToList();
+                Session["usr"] = user;
+                Session["friends"] = user.Friends;
               //  Session["playedGame"]= _context.
                 return RedirectToAction("Index", "Home");
             }
-            else if (_context.Admins.Where(u => u.Username == username && u.Password == password).Any())
+            else if (db.Admins.Where(u => u.Username == username && u.Password == password).Any())
             {
                 return RedirectToAction("AdminIndex", "Home");
             }
@@ -65,33 +65,23 @@ namespace DiceGame.Controllers
             Session["usr"] = userModel;
             Session["friends"] = userModel.Friends;
             userModel.Online = 1;
-            _context.Users.Add(userModel);
-            _context.SaveChanges();
+            db.Users.Add(userModel);
+            db.SaveChanges();
             return RedirectToAction("Index", "Home");
         }
 
-        public ActionResult logout ()
-        {
-            return View();
-        }
-
-        [HttpPost]
         public ActionResult Logout()
         {
-            var x = (string)Session["username"];
-            User usr = _context.Users.Where(u => u.UserName == x).FirstOrDefault();
-            if ( usr!= null)
+            var usr = (string)Session["username"];
+            User user = db.Users.Where(u => u.UserName == usr).FirstOrDefault();
+            if ( user!= null)
             {
-                _context.Users.Remove(usr);
-                _context.SaveChanges();
-                usr.Online = 0;
-                _context.Users.Add(usr);
-                _context.SaveChanges();
-
+                db.Users.Where(u => u.UserName == usr).First().Online = 0;
+                db.SaveChanges();
 
             }
             Session.Clear();
-            return View();
+            return RedirectToAction("login");
         }
 
 

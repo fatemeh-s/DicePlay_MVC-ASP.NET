@@ -11,17 +11,27 @@
         @Html.Label("1.Maximum Of Score:")
         @Html.TextBoxFor(m => m.MaxScore, new { @class = "form-control" })
     </div>
+
     <div class="form-group">
         @Html.Label("2.Write the current score zero when dice appear:")
         @Html.TextBoxFor(m => m.CurrentScore, new { @class = "form-control" })
     </div>
 
     <div class="form-group">
-        @Html.Label("3.Play with this number of dice:")
+        @Html.Label("3.Write the max of roll dice :")
+        @Html.TextBoxFor(m => m.MaxRollDice, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("4.Write the dice score to zero the total score :")
+        @Html.TextBoxFor(m => m.zeroScore, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("5.Play with this number of dice:")
         <br />
-        1:   @Html.RadioButtonFor(m => m.DiceCount, 1)
+        1: @Html.RadioButtonFor(m => m.DiceCount, 1)
         2: @Html.RadioButtonFor(m => m.DiceCount, 2)
-        3:   @Html.RadioButtonFor(m => m.DiceCount, 3)
         4: @Html.RadioButtonFor(m => m.DiceCount, 4)
 
     </div>
