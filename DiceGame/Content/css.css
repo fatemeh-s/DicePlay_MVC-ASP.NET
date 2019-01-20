@@ -1,0 +1,158 @@
+body{
+  background-image:url("../Content/back.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.main_box{
+  margin-left: 200px;
+  margin-top: 50px;
+  width: 70%;
+  padding: 0px;
+  background-color: white;
+  display: inline-block
+}
+#left_box{
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  background-color:rgb(244, 248, 247)
+}
+ #right_box{
+  margin: 0;
+  padding: 0;
+  float: right;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+}
+
+.dice{
+  width:70% ;
+  margin: 0;
+  top : 20%;
+  left:46%;
+  position: absolute;
+  z-index: 10;
+}
+
+
+.current0{
+  width:10% ;
+  margin: 0;
+  top : 60%;
+  left:27%;
+  position: absolute;
+  z-index: 10;
+  background-color: red
+}
+
+.current1{
+  width:10% ;
+  margin: 0;
+  top : 60%;
+  right:28%;
+  position: absolute;
+  z-index: 10;
+  background-color: red
+}
+
+#current0{
+  color: white;
+}
+#current1{
+  color: white;
+}
+.fa.fa-plus-circle{
+  color: red;
+}
+.new_game{
+  color: red;
+}
+
+.fa.fa-refresh{
+  color: red;
+}
+.roll_dice{
+  color: red;
+}
+
+.fa.fa-download{
+  color: red;
+}
+.hold{
+  color: red;
+}
+
+#score{
+  border: 2px solid lavender;
+  background-color: white;
+  width: 10%;
+  empty-cells: hide;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 10px;
+  text-align: center;
+
+}
+
+.new_game_button{
+  background:none;
+  border:none;
+  margin:0;
+  padding:0;
+  cursor: pointer;
+
+}
+
+.roll_dice_button{
+  background:none;
+  border:none;
+  margin:0;
+  padding:0;
+  cursor: pointer;
+
+}
+
+.hold_button{
+  background:none;
+  border:none;
+  margin:0;
+  padding:0;
+  cursor: pointer;
+
+}
+
+#p0{
+  font-size: 60px;
+  display: inline;
+}
+#p1{
+  font-size: 60px;
+  display: inline;
+}
+
+#tp0{
+  font-size: 60px;
+  color: red;
+}
+
+#tp1{
+  font-size: 60px;
+  color: red;
+}
+
+
+#turn0{
+  color: red;
+  display:inline;
+
+}
+#turn1{
+  color: red;
+  display: none;
+}
