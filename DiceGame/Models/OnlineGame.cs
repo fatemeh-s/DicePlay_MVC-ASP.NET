@@ -33,8 +33,7 @@ namespace DiceGame.Models
         public int Score1 { get; set; }
         public int Score2 { get; set; }
         public int Turn { get; set; }
-        public int DesignedGameId { get; set; }
-        //public int finished { get; set; }//if finishe =1 else =0
+        public int designedGameId { get; set; }
         public DesignedGame game { get; set; }
 
     }

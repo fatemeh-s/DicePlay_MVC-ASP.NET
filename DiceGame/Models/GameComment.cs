@@ -21,8 +21,8 @@ namespace DiceGame.Models
         public string CommenterUser { get; set; }
         public int GameId { get; set; }
         public String Comment { get; set; }
-        public string date { get; set; }
-        public int flag { get; set; }
+        public int rate { get; set; }
+        public DateTime date { get; set; }
 
 
     }

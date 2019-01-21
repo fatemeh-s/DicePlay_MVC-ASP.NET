@@ -1,0 +1,21 @@
+﻿@model IEnumerable<DiceGame.Models.OnlineGame>
+@{
+    ViewBag.Title = "myOnlineGame";
+}
+
+<h2>myOnlineGame</h2>
+<div class="jumbotron">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="card col-sm-3">
+                <span>Game Id:</span>@Html.DisplayFor(m => item.designedGameId)
+                <br />
+                <span>Player1:</span>@Html.DisplayFor(m => item.Player1User)
+                <br />
+                <span>Player2:</span>@Html.DisplayFor(m => item.Player2User)
+                <br />
+                <input type="button" value="play" onclick="location.href='@Url.Action("GameIndex", "Game")?id=' + @item.Id" />
+            </div>
+        }
+    </div>

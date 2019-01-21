@@ -2,17 +2,15 @@
 @{
     ViewBag.Title = "EditProfile";
 }
-<head>
     <script>
         function previewImage(event) {
             // Get a reference to the image element
-            var image = document.getElementById("hi");
+            var image = document.getElementById("profileImage");
             image.innerHTML(URL.createObjectURL(event.target.files[0]));
             // Set its source to the file in the <input type=file element
-           // image.src = URL.createObjectURL(event.target.files[0]);
+            src = URL.createObjectURL(event.target.files[0]);
         };
     </script>
-</head>
 <div class="container" ng-app="myApp" ng-controller="photoControl">
     <h1>Edit Profile</h1>
     <hr>
@@ -20,11 +18,13 @@
         <!-- left column -->
         <div class="col-md-3">
             <div class="text-center">
-                <form action="/profile/upload" method="post" enctype="multipart/form-data">
-                    <img src="//placehold.it/100" class="avatar img-circle" id ="profileImage" alt="avatar">
-                    <input type="file" name="photo" id="photo" />
+                <form action="/profile/saveImage" method="post" enctype="multipart/form-data">
+                    <img src=@Model.Picture class="avatar img-circle" id ="profileImage" alt="avatar">
+                    @*<input type="file" name="photo" id="photo" />
 
-                    <input type="button" value="Upload"  onclick="previewImage(event)" />
+                    <input type="button" value="Upload" onclick="previewImage(event)" />*@
+                    @Html.TextBoxFor(m => m.Picture);
+                    <input type="submit" value="post"  />
                 </form>
 
                     @*

@@ -28,10 +28,10 @@ namespace DiceGame.Controllers
             {
 
 
-                db.Users.Where(u => u.UserName == username && u.Password == password).First().Online = 1;
+                db.Users.Where(u => u.UserName == username && u.Password == password).FirstOrDefault().Online = 1;
                 db.SaveChanges();
               
-                Session["username"] = db.Users.Where(u => u.UserName == user.UserName).First().UserName;
+                Session["username"] = db.Users.Where(u => u.UserName == user.UserName).FirstOrDefault().UserName;
                 Session["designedGame"] = db.DesignedGames.Where(d => d.DesignerUser == user.UserName).ToList();
                 Session["finishedGame1"] = db.FinishedGames.Where(d => d.Player1User == user.UserName ).ToList();
                 Session["finishedGame2"] = db.FinishedGames.Where(d => d.Player2User == user.UserName).ToList();
@@ -76,7 +76,7 @@ namespace DiceGame.Controllers
             User user = db.Users.Where(u => u.UserName == usr).FirstOrDefault();
             if ( user!= null)
             {
-                db.Users.Where(u => u.UserName == usr).First().Online = 0;
+                db.Users.Where(u => u.UserName == usr).FirstOrDefault().Online = 0;
                 db.SaveChanges();
 
             }

@@ -25,6 +25,7 @@ namespace DiceGame.Models
         public string DesignerUser { get; set; }
         public int CountPlayed { get; set; }
         public int TotalScore { get; set; }
+        public int numScore { get; set; }
         public int AverageScore { get; set; }
         public int MaxScore { get; set; }
         public int CurrentScore { get; set; }

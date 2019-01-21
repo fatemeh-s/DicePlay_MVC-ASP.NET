@@ -1,7 +1,26 @@
-﻿@model DiceGame.Models.DesignedGame
+﻿@model DiceGame.Models.view
 @{
     ViewBag.Title = "ProfileDesignedGame";
 }
 
 <h2>ProfileDesignedGame</h2>
+<div class="jumbotron">
+    <div class="row">
+        @foreach (var item in Model.DesignedGames.ToList())
+        {
+            if (item.DesignerUser == (string)Session["username"])
+            {
+                <div class="card col-sm-3">
+                    @Html.DisplayFor(m => item.DesignerUser)
+                    <br />
+                    <span>score:</span>@Html.DisplayFor(m => item.TotalScore)
+                    <br />
+                    <span>played:</span>@Html.DisplayFor(m => item.CountPlayed)
+                    <br />
+                </div>
+            }
+
+        }
+    </div>
+</div>
 

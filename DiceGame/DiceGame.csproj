@@ -168,6 +168,8 @@
     <Compile Include="Models\OnlineGame.cs" />
     <Compile Include="Models\FinishedGame.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="Models\GameViewModel.cs" />
+    <Compile Include="Models\view.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -181,6 +183,7 @@
     <Content Include="Content\dice-4.png" />
     <Content Include="Content\dice-5.png" />
     <Content Include="Content\dice-6.png" />
+    <Content Include="Content\index.png" />
     <Content Include="Content\p1.jfif" />
     <Content Include="Content\p2.jfif" />
     <Content Include="Content\p3.png" />
@@ -201,6 +204,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\javascript.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\javascript2.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -220,7 +224,6 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Game\GameIndex.cshtml" />
     <Content Include="Views\Home\AdminIndex.cshtml" />
     <Content Include="Views\Home\AllUsers.cshtml" />
     <Content Include="Views\Home\DesignGame.cshtml" />
@@ -240,6 +243,11 @@
     <Content Include="Views\profile\ProfileDesignedGame.cshtml" />
     <Content Include="Views\profile\ProfileGames.cshtml" />
     <Content Include="Views\Game\AllGames.cshtml" />
+    <Content Include="Views\Game\myOnlineGame.cshtml" />
+    <Content Include="Views\Game\GameIndex2.cshtml" />
+    <Content Include="Views\Game\GiveReviewGame.cshtml" />
+    <Content Include="Views\Game\GiveReviewUser.cshtml" />
+    <Content Include="Views\Game\GameIndex.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

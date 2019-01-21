@@ -1,0 +1,109 @@
+﻿
+@{
+    ViewBag.Title = "GameIndex2";
+}
+
+<h2>GameIndex2</h2>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="javascript2.js"></script>
+<meta charset="UTF-8">
+<title>game</title>
+<link rel="stylesheet" href="css.css">
+
+<div class="main_box">
+    <div id="left_box">
+        <br>
+        <br>
+        <br>
+        <br>
+        <span id="p0">PLAYER0</span>
+        <i class="fa fa-circle" id="turn0"></i><br />
+        <sapn id="tp0">0</sapn><br />
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="current0">
+            <p>current</p>
+            <p id="current0">0</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div id="right_box">
+        <br>
+        <br>
+        <br>
+        <br>
+        <span id="p1">PLAYER1</span>
+        <i class="fa fa-circle" id="turn1"></i><br />
+        <sapn id="tp1">0</sapn><br />
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="current1">
+            <p>current</p>
+            <p id="current1">0</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div class="dice">
+        <button class="new_game_button" onclick="document.location.reload(true)">
+            <i class="fa fa-plus-circle"></i>
+            <span class="new_game">NEW GAME</span>
+        </button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img id="imgId" src="dice-2.png" width="10%">
+        <br>
+        <br>
+        <img id="imgId2" src="dice-3.png" width="10%">
+        <br>
+        <br>
+        <button class="roll_dice_button" onclick="roll_dice()">
+            <i class="fa fa-refresh"></i>
+            <span class="roll_dice">ROLL DICE</span>
+        </button>
+        <br>
+        <br>
+        <button class="hold_button" onclick="hold()">
+            <i class="fa fa-download"></i>
+            <span class="hold">HOLD</span>
+        </button>
+        <br>
+        <br>
+        <input id="score" value="score" />
+    </div>
+    <!-- <div class="new_game">
+
+    </div>
+    <div class="buttons">
+
+    </div> -->
+</div>

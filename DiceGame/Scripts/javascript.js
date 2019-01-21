@@ -10,11 +10,13 @@ last_score1 = 0;
 
 
 
-    $("#roll").click(function () {
-        
+
+$("#roll").click(function () {
+    //alert(someSessionVariable);
         roll_dice();
     });
 //gets final score value for endig game
+
 function finalS() {
   finalScore = document.getElementById("score").value;
 }
@@ -26,57 +28,25 @@ function roll_dice() {
     case 1 :
       document.getElementById("imgId").src = "../Content/dice-1.png";
       last_score0 = 1;
-      last_score1 = 1;
       break;
     case 2 :
       document.getElementById("imgId").src = "../Content/dice-2.png";
       last_score0 = 2;
-      last_score1 = 2;
       break;
     case 3 :
       document.getElementById("imgId").src = "../Content/dice-3.png";
       last_score0 = 3;
-      last_score1 = 3;
       break;
     case 4 :
           document.getElementById("imgId").src = "../Content/dice-4.png";
       last_score0 = 4;
-      last_score1 = 4;
       break;
     case 5 :
           document.getElementById("imgId").src = "../Content/dice-5.png";
       last_score0 = 5;
-      last_score1 = 5;
       break;
     case 6 :
           document.getElementById("imgId").src = "../Content/dice-6.png";
-
-      //this part checks two 6
-      if(last_score0 == 6 || last_score1 == 6){
-        if(turn == 0 && last_score0 == 6){
-          turn = 1;
-          current0 = 0;
-          document.getElementById("current0").innerHTML = 0;
-          total0 = 0;
-          document.getElementById("tp0").innerHTML = 0;
-          //for change color for showing turn
-          document.getElementById("right_box").style.backgroundColor = "rgb(244, 248, 247)";
-          document.getElementById("left_box").style.backgroundColor = "white";
-          //for showing turn by circle
-          document.getElementById("turn0").style.display="none";
-          document.getElementById("turn1").style.display="inline";
-        }else if (turn == 1 && last_score1 == 6){
-          turn = 0;
-          current1 = 0;
-          document.getElementById("current1").innerHTML = 0;
-          total1 = 0;
-          document.getElementById("tp1").innerHTML = 0;
-          document.getElementById("right_box").style.backgroundColor = "white";
-          document.getElementById("left_box").style.backgroundColor = "rgb(244, 248, 247)";
-          document.getElementById("turn0").style.display="inline";
-          document.getElementById("turn1").style.display="none";
-        }
-      }
       last_score0 = 6;
       last_score1 = 6;
       break;
@@ -115,7 +85,7 @@ function roll_dice() {
 
   var roles = { current0: current0, current1: current1, total0: total0, total1: total1, Turn: turn };
 
-  alert(JSON.stringify(roles));
+  //alert(JSON.stringify(roles));
   jQuery.ajax({
       type: "POST",
       url: "updateGame",

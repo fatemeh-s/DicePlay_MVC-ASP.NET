@@ -1,6 +1,7 @@
-﻿
+﻿@model IEnumerable<DiceGame.Models.User>
 @{
     ViewBag.Title = "GuestIndex";
+    Layout = "~/Views/Shared/_MyLayout2.cshtml";
 }
 
 <head>
@@ -11,3 +12,16 @@
 
 @{Html.RenderPartial("slider");
 }
+
+<div class="jumbotron">
+    <p>Online Users</p>
+    <div class="row">
+        @foreach (var item in Model.ToList())
+        {
+            <div class="card col-sm-3">
+                        @Html.DisplayFor(m => item.UserName);<br />
+                        @Html.Label("online");<br /> 
+            </div>
+     }
+    </div>
+</div>

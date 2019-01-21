@@ -27,7 +27,7 @@
                 <br />
                 <span>played:</span>@Html.DisplayFor(m => item.RateNum)
                 <br />
-                <input type="button" value="invite" onclick="location.href='@Url.Action("GameAccept", "Review")'" />
+                <input type="button" value="invite" onclick="location.href='@Url.Action("invite", "Home")?id='+@item.Id" />
             </div>
         }
         </div>

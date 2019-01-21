@@ -33,7 +33,7 @@ namespace DiceGame.Views.Login
             UserComment com = db.CommentUsers.Find(id);
             db.CommentUsers.Remove(com);
             db.SaveChanges();
-            (db.Users.Where(x => x.UserName == com.User).First()).comments.Add(com);
+            (db.Users.Where(x => x.UserName == com.User).FirstOrDefault()).comments.Add(com);
             db.SaveChanges();
             //IList<UserComment> list = u.comments;
             //list.Add()
@@ -53,7 +53,7 @@ namespace DiceGame.Views.Login
             GameComment com = db.CommentGames.Find(id);
             db.CommentGames.Remove(com);
             db.SaveChanges();
-            (db.DesignedGames.Where(x => x.Id == com.GameId).First()).Comments.Add(com);
+            (db.DesignedGames.Where(x => x.Id == com.GameId).FirstOrDefault()).Comments.Add(com);
             db.SaveChanges();
             return RedirectToAction("GameReviewAdminIndex");
         }

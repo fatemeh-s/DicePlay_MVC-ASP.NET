@@ -37,7 +37,7 @@ namespace DiceGame.Models
         public Nullable<int> RateTotal { get; set; }
         public Nullable<int> RateNum { get; set; }
         public Nullable<double> RateMean { get; set; }
-        public byte[] Picture { get; set; }
+        public string Picture { get; set; }
         public int Online { get; set; }
         public IList<UserComment> comments { get; set; }
         public IList<string> Friends { get; set; }
