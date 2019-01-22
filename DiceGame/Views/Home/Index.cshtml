@@ -1,4 +1,4 @@
-﻿@model IEnumerable<DiceGame.Models.User>
+﻿@model DiceGame.Models.FriendUser
 @{
     ViewBag.Title = "Home Page";
 }
@@ -10,7 +10,7 @@
     <link href="Content/css.css" rel="stylesheet">*@
     <style>
         .red{
-            color : red;
+            text-emphasis-color : red;
         }
         .card {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -69,7 +69,7 @@
         }  
 
         <div class="col-md-4 text-center">
-           @foreach (var item in Model.ToList())
+           @foreach (var item in Model.user.ToList())
            {
                string us = (string)Session["username"];
 
@@ -84,7 +84,7 @@
 
         </div>
         <div class="col-md-4 text-center">
-            @foreach (var item in Model.ToList())
+            @foreach (var item in Model.user.ToList())
             {
                 string us = (string)Session["username"];
 
@@ -95,7 +95,7 @@
             }
 
         </div>
-        @foreach (var item in Model.ToList())
+        @foreach (var item in Model.user.ToList())
         {
              string us = (string)Session["username"];
 
@@ -125,10 +125,10 @@
   <div class="jumbotron">
     <p>Online Users</p>
     <div class="row">
-        @foreach (var item in Model.ToList())
+        @foreach (var item in Model.user.ToList())
         {
             var usr = (string)Session["username"];
-            IList<string> friends = Model.Where(m => m.UserName == usr).FirstOrDefault().Friends;
+            var flag = 0;
             if (item.UserName == (string)Session["username"])
             {
 
@@ -136,46 +136,33 @@
             else
             {
                 <div class="card col-sm-3">
-                    @{if (friends != null )
-                    {
-                        var flag = 0;
-                        foreach (var f in friends)
+                        @foreach (var i in Model.friends.ToList())
                         {
-                            if (item.UserName == f)
+                            flag = 0;
+                            if (item.UserName == i.Friend1User || item.UserName == i.Friend2User)
                             {
                                 flag = 1;
                                 break;
                             }
                         }
 
-                        if (flag == 0)
+                        @if (flag == 0)
                         {
-
-                                @Html.DisplayFor(m => item.UserName);<br />
-                                @Html.Label("online");<br />
-                                
-                            <input type="button" value="accept" onclick="location.href='@Url.Action("invite", "Home")?id=' + @item.Id" /><br />
-                            }
-                            else
-                            {
+                            @Html.DisplayFor(m => item.UserName);<br />
+                            @Html.Label("online");<br />
+                            <input type="button" value="invite" onclick="location.href='@Url.Action("invite", "Home")?id=' + @item.Id" /><br />
+                        }
+                        else
+                        {
                                 @Html.DisplayFor(m => item.UserName, new { @class = "red" });<br />
                                 @Html.Label("online");<br />
                             }
 
-                        }
-                        else
-                        {
-                            @Html.DisplayFor(m => item.UserName);<br />
-                            @Html.Label("online");<br />
-                           <input type="button" value="invite" onclick="location.href='@Url.Action("invite", "Home")?id=' + @item.Id" /><br />
-                        }
-
-                    }
+                       
 
                 </div>
               }
-
-                        }
+     }
 
     </div>
 

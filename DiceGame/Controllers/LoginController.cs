@@ -36,7 +36,7 @@ namespace DiceGame.Controllers
                 Session["finishedGame1"] = db.FinishedGames.Where(d => d.Player1User == user.UserName ).ToList();
                 Session["finishedGame2"] = db.FinishedGames.Where(d => d.Player2User == user.UserName).ToList();
                 Session["usr"] = user;
-                Session["friends"] = user.Friends;
+                
               //  Session["playedGame"]= _context.
                 return RedirectToAction("Index", "Home");
             }
@@ -63,7 +63,7 @@ namespace DiceGame.Controllers
         {
             Session["username"] = userModel.UserName;
             Session["usr"] = userModel;
-            Session["friends"] = userModel.Friends;
+            
             userModel.Online = 1;
             db.Users.Add(userModel);
             db.SaveChanges();

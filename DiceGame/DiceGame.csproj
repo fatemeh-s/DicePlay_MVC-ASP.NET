@@ -160,6 +160,8 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Admin.cs" />
+    <Compile Include="Models\Friends.cs" />
+    <Compile Include="Models\FriendUser.cs" />
     <Compile Include="Models\request.cs" />
     <Compile Include="Models\UserComment.cs" />
     <Compile Include="Models\GameComment.cs" />

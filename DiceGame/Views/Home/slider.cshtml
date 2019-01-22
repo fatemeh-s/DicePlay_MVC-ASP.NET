@@ -12,7 +12,9 @@
             <img src="~/Content/p5.jfif" alt="Los Angeles">
             <div class="carousel-caption">
                 <h3>best Game</h3>
-                <p>designer : </p>@ViewBag.bestDesigner.DesignerUser
+                <span>designer : </span>@ViewBag.bestDesigner.DesignerUser <br />
+                <span>ID : </span>@ViewBag.bestDesigner.Id<br />
+                <span>Score : </span>@ViewBag.bestDesigner.TotalScore<br />
             </div>
         </div>
 
@@ -28,7 +30,9 @@
             <img src="~/Content/p7.jfif" alt="New York" style=" width = 100%;">
             <div class="carousel-caption">
                 <h3>New best game</h3>
-                <p>Designer : </p> @ViewBag.NewBestDesigner.DesignerUser
+                <span>Designer : </span> @ViewBag.NewBestDesigner.DesignerUser <br />
+                <span>GameID : </span> @ViewBag.NewBestDesigner.Id <br />
+                <span>total score : </span> @ViewBag.NewBestDesigner.TotalScore
             </div>
         </div>
     </div>

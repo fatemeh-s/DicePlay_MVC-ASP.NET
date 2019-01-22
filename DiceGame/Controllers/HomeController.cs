@@ -13,6 +13,7 @@ namespace DiceGame.Controllers
         DiceModel db = new DiceModel();
         public ActionResult Index()
         {
+            var myusr = (string)Session["username"];
             if(db.DesignedGames != null)
                 ViewBag.bestDesigner = db.DesignedGames.OrderByDescending(x => x.TotalScore).FirstOrDefault();
             if (db.DesignedGames != null)
@@ -25,8 +26,12 @@ namespace DiceGame.Controllers
                                          SerialNumber = g.Key,
                                          uid = (from t2 in g select t2.designedGameId).Max()
                                      };
-
-            return View(FindOnlines());
+            FriendUser fu = new FriendUser
+            {
+                friends = db.friends.Where(m => m.Friend1User == myusr || m.Friend2User == myusr),
+                user = db.Users.Where(v => v.Online == 1)
+            };
+            return View(fu);
         }
         public List<User> FindOnlines()
         {
@@ -95,7 +100,7 @@ namespace DiceGame.Controllers
                                          SerialNumber = g.Key,
                                          uid = (from t2 in g select t2.designedGameId).Max()
                                      };
-            Session["username"] = RandomGen2.Next();
+            Session["username"] = "Gust"+RandomGen2.Next();
             return View(db.Users.Where(m => m.Online == 1).AsEnumerable().ToList());
         }
 
@@ -131,12 +136,19 @@ namespace DiceGame.Controllers
 
         public ActionResult invite(int id)
         {
+            Friends f;
             var myuser = (string)Session["username"];
             string username = db.Users.Find(id).UserName;
-            db.Users.Where(m => m.UserName == myuser).FirstOrDefault().Friends.Add(username);
-            db.SaveChanges();
-            db.Users.Where(m => m.UserName == username).FirstOrDefault().Friends.Add(myuser);
-            db.SaveChanges();
+            var flag=db.friends.Where(m => (m.Friend1User == myuser & m.Friend2User == username) || (m.Friend2User == myuser & m.Friend1User == username)).FirstOrDefault();
+            if (flag == null)
+            {
+                f = new Friends();
+                f.Friend1User = myuser;
+                f.Friend2User = username;
+                db.friends.Add(f);
+                db.SaveChanges();
+            }
+            
             return RedirectToAction("Index");
 
         }
